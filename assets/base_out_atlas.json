@@ -1,7 +1,5 @@
 {
-  "tileSize":[32, 32],
-  "content":{
-    "lightScatteredStone1":[13, 0],
-    "lightScatteredStone2":[13, 1]
-  }
+  "lightScatteredStone1":[13, 0, 1, 1],
+  "lightScatteredStone2":[13, 1, 1, 1],
+  "earthWallPillar":[0, 0, 2, 5]
 }
