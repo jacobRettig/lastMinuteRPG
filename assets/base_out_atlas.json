@@ -1,0 +1,7 @@
+{
+  "tileSize":[32, 32],
+  "content":{
+    "lightScatteredStone1":[13, 0],
+    "lightScatteredStone2":[13, 1]
+  }
+}
