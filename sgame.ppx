@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1.0">
+	<category name="main.c">
+		<category name="Window">
+			<property name="Left" type="integer">-4</property>
+			<property name="Top" type="integer">-23</property>
+			<property name="Right" type="integer">1688</property>
+			<property name="Bottom" type="integer">578</property>
+			<property name="Maximized" type="integer">1</property>
+			<property name="Active" type="integer">1</property>
+		</category>
+	</category>
+	<category name="vid.h">
+		<category name="Window">
+			<property name="Left" type="integer">22</property>
+			<property name="Top" type="integer">22</property>
+			<property name="Right" type="integer">1454</property>
+			<property name="Bottom" type="integer">445</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="vid.c">
+		<category name="Window">
+			<property name="Left" type="integer">44</property>
+			<property name="Top" type="integer">44</property>
+			<property name="Right" type="integer">1476</property>
+			<property name="Bottom" type="integer">467</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="sys.h">
+		<category name="Window">
+			<property name="Left" type="integer">66</property>
+			<property name="Top" type="integer">66</property>
+			<property name="Right" type="integer">1498</property>
+			<property name="Bottom" type="integer">489</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="sys.c">
+		<category name="Window">
+			<property name="Left" type="integer">88</property>
+			<property name="Top" type="integer">88</property>
+			<property name="Right" type="integer">1520</property>
+			<property name="Bottom" type="integer">511</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="timer.c">
+		<category name="Window">
+			<property name="Left" type="integer">154</property>
+			<property name="Top" type="integer">154</property>
+			<property name="Right" type="integer">1177</property>
+			<property name="Bottom" type="integer">584</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="tex.c">
+		<category name="Window">
+			<property name="Left" type="integer">110</property>
+			<property name="Top" type="integer">110</property>
+			<property name="Right" type="integer">1125</property>
+			<property name="Bottom" type="integer">533</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="timer.h">
+		<category name="Window">
+			<property name="Left" type="integer">176</property>
+			<property name="Top" type="integer">176</property>
+			<property name="Right" type="integer">1199</property>
+			<property name="Bottom" type="integer">606</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="tex.h">
+		<category name="Window">
+			<property name="Left" type="integer">132</property>
+			<property name="Top" type="integer">132</property>
+			<property name="Right" type="integer">1155</property>
+			<property name="Bottom" type="integer">562</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+</settings>
