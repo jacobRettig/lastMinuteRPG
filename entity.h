@@ -9,6 +9,11 @@
 
 typedef struct
 {
+} CostumeData;
+
+
+typedef struct
+{
   RawImgID rawImgID;
 } DroppedItem;
 
@@ -62,5 +67,6 @@ float entityDistSq (Entity *entity1, Entity *entity2);
  */
 int isEntityCollidingEntity (Entity *entity1, Entity *entity2);
 int isEntityCollidingTile (Entity *entity, int tileX, int tileY);
+
 
 #endif

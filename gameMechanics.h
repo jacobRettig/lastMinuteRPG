@@ -34,6 +34,63 @@ typedef struct {char x, y;} Vec2ui;
 typedef struct {unsigned char x, y;} Vec2uc;
 
 /*
+ * Simple Geometric shapes
+ */
+typedef struct
+{
+  float x, y, width, height;
+} Rectangle;
+typedef struct
+{
+  float x, y, radius;
+} Circle;
+
+
+/*
+ * float hypot (x*x + y*y)
+ */
+inline float fhypot (float x, float y);
+
+/*
+ * returns the distance squared from a rectangle and a 2D float vector
+ */
+inline float hypotRectVec2f (Rectangle rect, Vec2f vec);
+
+/*
+ * returns the distance from a rectangle and a 2D float vector
+ */
+inline float distRectVec2f (Rectangle rect, Vec2f vec);
+
+/*
+ * returns 1 if rectangle and a 2D float vector overlap
+ * else returns a 0 if tangent or not overlapping
+ */
+inline int isOverlapRectVect2f (Rectangle rect, Vec2f vec);
+
+/*
+ * returns 1 if rectangle and a circle overlap (not just tangent)
+ * else returns a 0 if tangent or not overlapping
+ */
+inline int isOverlapRectCircle (Rectangle rect, Circle circle);
+
+/*
+ * returns the distance from a rectangle and a 2D float vector
+ */
+inline float distRectCircle (Rectangle rect, Circle circle);
+
+/*
+ * returns 1 if two circles overlap (not just tangent)
+ * else returns a 0 if tangent or not overlapping
+ */
+inline int isOverlapCircleCircle (Circle circle1, Circle circle2);
+
+/*
+ * returns the distance from two circles
+ */
+inline float distanceCircleCircle (Circle circle1, Circle circle2);
+
+
+/*
  * the offset of each RawImg stored in RAW_IMGS used to identify each one
  */
 typedef unsigned char RawImgID;
