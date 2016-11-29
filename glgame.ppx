@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1.0">
+	<category name="draw.c" />
+	<category name="timer.c" />
+	<category name="tex.c" />
+	<category name="sys.c" />
+	<category name="sys.h" />
+	<category name="main.c" />
+	<category name="vid.h" />
+	<category name="tex.h" />
+	<category name="game.h" />
+	<category name="game.c" />
+	<category name="input.h">
+		<category name="Window">
+			<property name="Left" type="integer">88</property>
+			<property name="Top" type="integer">88</property>
+			<property name="Right" type="integer">731</property>
+			<property name="Bottom" type="integer">412</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="input.c">
+		<category name="Window">
+			<property name="Left" type="integer">-4</property>
+			<property name="Top" type="integer">-23</property>
+			<property name="Right" type="integer">862</property>
+			<property name="Bottom" type="integer">436</property>
+			<property name="Maximized" type="integer">1</property>
+			<property name="Active" type="integer">1</property>
+		</category>
+	</category>
+</settings>
