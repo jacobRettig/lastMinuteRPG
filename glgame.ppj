@@ -34,7 +34,8 @@ glgame.exe: \
 	output\main.obj \
 	output\sys.obj \
 	output\tex.obj \
-	output\timer.obj
+	output\timer.obj \
+	output\sprite2.obj
 	$(LINK) $(LINKFLAGS) -out:"$@" $**
 
 # 
@@ -45,6 +46,7 @@ output\game.obj: \
 	draw.h \
 	game.h \
 	input.h \
+	sprite2.h \
 	sys.h \
 	tex.h \
 	timer.h
@@ -107,6 +109,15 @@ output\input.obj: \
 	input.h
 	$(CC) $(CCFLAGS) "$!" -Fo"$@"
 
-.SILENT:
+# 
+# Build sprite2.obj.
+# 
+output\sprite2.obj: \
+	sprite2.c \
+	draw.h \
+	sprite2.h
+	$(CC) $(CCFLAGS) "$!" -Fo"$@"
 
 .EXCLUDEDFILES:
+
+.SILENT:

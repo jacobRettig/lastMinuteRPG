@@ -49,22 +49,22 @@ typedef struct
 } Sprite;
 
 
-const int spritePhaseStages [21] {
+const int spritePhaseStages [21] = {
   7, 7, 7, 7,
   8, 8, 8, 8,
   9, 9, 9, 9,
   6, 6, 6, 6,
   13, 13, 13, 13,
-  6
-}
+  6,
+};
 
 void drawSprite (Sprite *sprite, float aniTime);
 Sprite genRandom (void);
 
-extern int spriteBodies [N_SPRITE_GENDERS][N_SPRITE_BODIES];
-extern int spriteHair [N_SPRITE_GENDERS][N_SPRITE_HAIR_TYPE][N_SPRITE_HAIR_COLOR];
-extern int spriteTorso [N_SPRITE_GENDERS][N_SPRITE_TORSO];
-extern int spriteLegs [N_SPRITE_GENDERS][N_SPRITE_LEGS];
-extern int spriteFeet [N_SPRITE_GENDERS][N_SPRITE_FEET];
+extern const int spriteBodies [N_SPRITE_GENDERS][N_SPRITE_BODIES];
+extern const int spriteHair [N_SPRITE_GENDERS][N_SPRITE_HAIR_TYPE][N_SPRITE_HAIR_COLOR];
+extern const int spriteTorso [N_SPRITE_GENDERS][N_SPRITE_TORSO];
+extern const int spriteLegs [N_SPRITE_GENDERS][N_SPRITE_LEGS];
+extern uint32_t **spriteFeet;
 
 #endif
